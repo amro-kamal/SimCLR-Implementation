@@ -8,14 +8,14 @@ A pytorch-xla implementation for the paper : [A Simple Framework for Contrastive
 
 [GIF SOURCE](https://github.com/google-research/simclr)
 
-To train the simclr on cofar10 use the next command:
+To train simclr on cofar10 use the next command:
 
 ```
 python train.py     --workers=4\
                     --epochs=400\
                     --batch_size=128 
-                    ---projector='512-512-512'\
-                    checkpoint_dir=[pathtosaveyourmodel]
+                    --projector='512-512-512'\
+                    --checkpoint_dir=[pathtosaveyourmodel]
                     --seed=44\
                     --temp=0.5
 
