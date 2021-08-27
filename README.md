@@ -26,7 +26,7 @@ python train.py     --workers=4\
 
 Note that the training supports TPU only
 
-** Results on cifar10 **
+**Results on cifar10**
 
 |epochs   | model      |knn acc|
 |---------|------------|------ |
