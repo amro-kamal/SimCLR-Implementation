@@ -1,6 +1,6 @@
 A pytorch-xla implementation for the paper : [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709)
 
-Presentation Link: https://docs.google.com/presentation/d/14pql5IDWsfRrBS1MamidZrIcJwKP0kFk-mAytWoJVMM/edit?usp=sharing
+<!-- Presentation Link: https://docs.google.com/presentation/d/14pql5IDWsfRrBS1MamidZrIcJwKP0kFk-mAytWoJVMM/edit?usp=sharing -->
 
 <!-- ![simclr][logo]
 
