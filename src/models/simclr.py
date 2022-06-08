@@ -41,7 +41,7 @@ class SimCLR(nn.Module):
         sim = torch.matmul(z, z.T) / temp  #[2*b x 2*b]
         # print('sim ',sim.shape)
 
-        #We need to removed the similarities of samples to themselves
+        #We need to remove the similarities of samples to themselves
         off_diag_ids = ~torch.eye(2*batch_size, dtype=torch.bool, device=device)
         logits = sim[off_diag_ids].view(2*batch_size, -1)  #[2*b x 2*b-1]
         labels = torch.arange(batch_size, device=device, dtype=torch.long)
